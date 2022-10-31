@@ -35,6 +35,7 @@ Subdomain enumoration tools
 - Assetfinder
 - Sublist3r
 - Sudomy 
+- Censys subdomain finder
 
 Networking tools 
 - Httpx
