@@ -2,6 +2,7 @@
 Bug Bounty Tool Installer installs popular tools used for bug bounty hunting.
 
 This installer will create a directory in your home folder called "~/tools".
+
 If you have any suggestions on tools to add please request them and I will add it to this script. 
 
 
