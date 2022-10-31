@@ -1,12 +1,7 @@
 # bbti
 Bug Bounty Tool Installer installs popular tools used for bug bounty hunting
 
-Current dependancies installed 
-
-Go
-Rust 
-Python3
-Figlet 
+This installer will create a directory in your home folder called "~/tools" 
 
 
 
@@ -31,3 +26,24 @@ Run the file
 
 
 
+
+Current tools:
+
+Subdomain enumoration tools
+- Subfinder 
+- Amass 
+- Assetfinder
+- Sublist3r
+- Sudomy 
+
+Networking tools 
+- Httpx
+- Nmap
+- 
+
+
+Current dependancies 
+- Go
+- Rust 
+- Python3
+- Figlet 
