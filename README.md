@@ -39,7 +39,11 @@ Subdomain enumoration tools
 Networking tools 
 - Httpx
 - Nmap
-- 
+
+Directory Brute Forcing tools
+
+
+
 
 
 Current dependancies 
