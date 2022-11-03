@@ -26,7 +26,7 @@ echo "Starting tool installation"
 
 #installing tools 
 
-echo "Installing golang tools please wait..."
+echo "Installing golang tools please wait"
 go install -v github.com/OWASP/Amass/v3/...@master > /dev/null 2>&1
 go install -v github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest > /dev/null 2>&1
 go install -v github.com/projectdiscovery/httpx/cmd/httpx@latest > /dev/null 2>&1
