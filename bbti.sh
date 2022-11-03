@@ -1,8 +1,11 @@
 #!/bin/bash 
 #Welcome to bbti 
 
+#variables
+Green='\033[0;32m'  
+
 # introduction messages
-echo "Welcome to bbti"
+echo \033[32m "Welcome to bbti" \033[0m 
 echo "This tool will install common tools that are used for security testing" 
 echo "Starting updates" 
 
