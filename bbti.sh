@@ -57,17 +57,19 @@ source venv/bin/activate > /dev/null 2>&1
 pip install -r requirements.txt > /dev/null 2>&1
 cd ..
 git clone --recursive https://github.com/screetsec/Sudomy.git > /dev/null 2>&1
+cd Sudomy > /dev/null 2>&1
 python3 -m pip install -r requirements.txt > /dev/null 2>&1
 apt-get install jq nmap phantomjs npm chromium parallel > /dev/null 2>&1
 npm i -g wappalyzer wscat > /dev/null 2>&1
-
+cd ..
 git clone https://github.com/jonluca/Anubis > /dev/null 2>&1
 cd Anubis > /dev/null 2>&1
 pip3 install -r requirments.txt > /dev/null 2>&1
 pip3 install .  > /dev/null 2>&1 
+cd ..
 git clone https://github.com/edoardottt/scilla.git
-
-
+cd scilla
+make linux
 
 
 
