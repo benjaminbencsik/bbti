@@ -7,16 +7,16 @@ echo "This tool will install common tools that are used for security testing"
 echo "Starting updates" 
 
 #updating before installation
-sudo apt-get update 
-sudo apt-get upgrade
-sudo apt-get dist-upgrade 
+sudo apt-get update > /dev/null 2>&1
+sudo apt-get upgrade > /dev/null 2>&1
+sudo apt-get dist-upgrade /dev/null 2>&1
 
 #installing dependancies 
 echo "Installting dependancies"
-sudo apt install golang-go
-sudo apt install software-properties-common
-sudo apt install python3.8
-sudo apt install rustc
+sudo apt install golang-go > /dev/null 2>&1
+sudo apt install software-properties-common 2>&1
+sudo apt install python3.8 > /dev/null 2>&1
+sudo apt install rustc > /dev/null 2>&1
 
 #creating tools directory in "~/"
 mkdir tools 
