@@ -12,7 +12,7 @@ sudo apt-get upgrade > /dev/null 2>&1
 sudo apt-get dist-upgrade /dev/null 2>&1
 
 #installing dependancies 
-echo "Installting dependancies"
+echo "Installing dependancies this could take a minute"
 sudo apt install golang-go > /dev/null 2>&1
 sudo apt install software-properties-common 2>&1
 sudo apt install python3.8 > /dev/null 2>&1
