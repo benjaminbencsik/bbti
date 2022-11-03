@@ -28,28 +28,4 @@ chmod +x bbti.sh
 
 
 
-Current tools:
 
-Subdomain enumoration tools
-- Subfinder 
-- Amass 
-- Assetfinder
-- Sublist3r
-- Sudomy 
-- Censys subdomain finder
-
-Networking tools 
-- Httpx
-- Nmap
-
-Directory Brute Forcing tools
-
-
-
-
-
-Current dependancies 
-- Go
-- Rust 
-- Python3
-- Figlet 
