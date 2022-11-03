@@ -1,7 +1,7 @@
 #!/bin/bash 
 #Welcome to bbti 
 
-#messages
+# introduction messages
 echo "Welcome to bbti"
 echo "This tool will install common tools that are used for security testing" 
 echo "Starting updates" 
@@ -18,6 +18,9 @@ sudo apt install software-properties-common
 sudo apt install python3.8
 sudo apt install rustc
 
+#creating tools directory in "~/"
+mkdir tools 
+
 echo "Finished installing dependacies"
 echo "Starting tool installation" 
 
@@ -33,5 +36,11 @@ go install -v github.com/projectdiscovery/dnsx/cmd/dnsx@latest
 go install    github.com/tomnomnom/assetfinder@latest
 go install    github.com/tomnomnom/waybackurls@latest
 go install    github.com/tomnomnom/meg@latest
+go install    github.com/tomnomnom/gron@latest
+go install    github.com/lc/gau/v2/cmd/gau@latest
+
+
+
+
 
 
