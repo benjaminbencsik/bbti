@@ -27,6 +27,6 @@ go install -v github.com/projectdiscovery/interactsh/cmd/interactsh-client@lates
 go install    github.com/projectdiscovery/asnmap/cmd/asnmap@latest
 go install -v github.com/projectdiscovery/uncover/cmd/uncover@latest
 go install -v github.com/projectdiscovery/dnsx/cmd/dnsx@latest
-go install -v github.com/tomnomnom/assetfinder/
+go install    github.com/tomnomnom/assetfinder@latest
 
 
