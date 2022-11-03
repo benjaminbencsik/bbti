@@ -12,11 +12,14 @@ sudo apt-get upgrade
 sudo apt-get dist-upgrade 
 
 #installing dependancies 
-echo installting dependancies
+echo "Installting dependancies"
 sudo apt install golang-go
 sudo apt install software-properties-common
 sudo apt install python3.8
 sudo apt install rustc
+
+echo "Finished installing dependacies"
+echo "Starting tool installation" 
 
 #installing tools 
 go install -v github.com/OWASP/Amass/v3/...@master
@@ -28,5 +31,7 @@ go install    github.com/projectdiscovery/asnmap/cmd/asnmap@latest
 go install -v github.com/projectdiscovery/uncover/cmd/uncover@latest
 go install -v github.com/projectdiscovery/dnsx/cmd/dnsx@latest
 go install    github.com/tomnomnom/assetfinder@latest
+go install    github.com/tomnomnom/waybackurls@latest
+go install    github.com/tomnomnom/meg@latest
 
 
